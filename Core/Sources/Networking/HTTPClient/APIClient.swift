@@ -31,7 +31,7 @@ public struct APIClient {
     urlRequest.addValue("application/json;charset=utf-8", forHTTPHeaderField: "Accept")
     urlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
     
-    let apiKey = "6af44fa099a2a0b65cabbcdac0236571"
+    let apiKey = "6ea969a303cbc60cb71624bec9278399"
     
     guard var components = URLComponents(url: url, resolvingAgainstBaseURL: false) else { fatalError("components can't be created") }
     components.queryItems = [URLQueryItem(name: "api_key", value: apiKey)]
